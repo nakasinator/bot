@@ -1,11 +1,15 @@
 {
-  "name": "index.js",
+{
+  "name": "my-bot",
   "version": "1.0.0",
-  "description": "bot",
+  "description": "A Discord bot!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "lint": "eslint ."
   },
+  "keywords": [],
   "author": "",
   "license": "ISC"
 }
